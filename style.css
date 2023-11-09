@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpeg);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+
+.player{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+}
+
+.dices{
+    width: 200px;
+    height: 200px;
+}
+
+
+.button {
+    position: relative;
+    top: 200px;
+    left: 47%;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding:3px 23px 2px;
+    border-radius: 15px;
+}
